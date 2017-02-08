@@ -1,0 +1,15 @@
+version: '2'
+services:
+  sigproc:
+    build: .
+    container_name: sigproc
+    volumes:
+     - .:/data/
+     - "/var/run/docker.sock:/var/run/docker.sock"
+    hostname: localhost
+    expose:
+     - "22"
+    ports: 
+     - "2225:22/tcp"
+    image: "mpifrpsr/sigproc"
+    command: "/usr/sbin/sshd -D"
