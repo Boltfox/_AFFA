@@ -1,0 +1,23 @@
+candidates:
+  nbins: 128
+  nsubs: 128
+detect:
+  min_segments: 8
+  nsigma: 6.0
+  peak_clustering_radius: 0.2
+  period_slice_width: 2.0
+  polydeg: 2
+  segment_dftbins_length: 30.0
+  snr_min: 6.0
+name: HTRU-N
+search:
+  bins_max: 256
+  bins_min: 128
+  ducy_max: 0.33
+  fpmin: 10
+  period_max: 0.096
+  period_min: 0.048
+  rmed_minpts: 101
+  rmed_width: 2.0
+  threads: 1
+  wtsp: 1.5
