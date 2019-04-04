@@ -1,0 +1,16 @@
+dir:        
+        #Work_dir is the location where the pipeline will working on
+        work_dir: '/home1/HTRU-N'
+        #Home_dir is where the results will be stored 
+        home_dir: '/home1/HTRU-N/results'
+        #Where to stored H5 files
+        h5dir: 'Prepfold' 
+para:
+        #Downsampling factor 
+        downsamp: 1
+        #Accleration range 
+        a_min: 0
+        a_max: 1024
+        #Config file name
+        configname: 'HTRUNll3_manager.yaml'
+        
